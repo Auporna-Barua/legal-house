@@ -8,3 +8,6 @@
     border-radius: 50%;
     object-fit: cover;
 }
+ul{
+    list-style-type: none;
+}
