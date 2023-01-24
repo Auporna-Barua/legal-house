@@ -35,7 +35,11 @@ ul{
     gap:15px;
 }
 .serivec-card .card{
-    width: 18rem;
+    width: 20rem;
+}
+.banner-text{
+    width: 50%;
+    text-align: center;
 }
 
 @media  only screen and (max-width: 1100px) {
@@ -43,7 +47,7 @@ ul{
         font-size: 35px;
     }
     .serivec-card .card{
-    width: 15rem;
+    width: 18rem;
 }
     
 }
@@ -72,6 +76,9 @@ ul{
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
   } 
+  .banner-text{
+    width: 80%;
+  }
  
 }
 @media only screen and (max-width:576px) {
