@@ -10,4 +10,100 @@
 }
 ul{
     list-style-type: none;
+    padding: 0;
 }
+.card-hover:hover{
+    background-color:#E7E7E7;
+}
+.icon-color{
+    background-color: #B68C5A;
+}
+.icon-color i{
+    color: #fff;
+}
+.heading-title{
+    font-size: 45px;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 7px;
+}
+.serivec-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:15px;
+}
+.serivec-card .card{
+    width: 18rem;
+}
+
+@media  only screen and (max-width: 1100px) {
+    .heading-title{
+        font-size: 35px;
+    }
+    .serivec-card .card{
+    width: 15rem;
+}
+    
+}
+@media only screen and (max-width: 900px) {
+    .faq{
+        flex-direction: column;
+        
+ 
+    }
+    .faq-left,.faq-right{
+        width: 100%;
+    }
+    .faq-right{
+        order: -1;
+    }
+     .serivec-card{
+    grid-template-columns: repeat(2,1fr);
+
+  } 
+  .serivec-card .card{
+    width: 20rem;
+  } 
+}
+@media only screen and (max-width:768px) {
+  .footer-grid{
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  } 
+ 
+}
+@media only screen and (max-width:576px) {
+  .footer-grid{
+    grid-template-columns:1fr;
+    gap: 10px;
+    text-align: center;
+  }  
+
+}
+@media only screen and (max-width:596px) {
+    .img{
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+}
+    
+}
+@media only screen and (max-width:596px) {
+    .img{
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+}
+    
+}
+@media only screen and (max-width:682px) {
+      .serivec-card{
+grid-template-columns: 1fr;
+justify-items: center; 
+ } 
+    
+}
+
+
